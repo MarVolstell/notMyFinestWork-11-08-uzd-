@@ -1,0 +1,30 @@
+/*I should have just made this one image tbh*/
+.sideImage {
+    width: 40%;;
+    position: relative;
+    img {
+        position: absolute;
+        z-index: 4;
+        top: 19%;
+        left: 7%;
+        max-width: 92%;
+    }
+}
+.sideVectors :nth-child(1){
+    z-index: 3;
+    left: 0;
+    top: 46%;
+}
+.sideVectors :nth-child(2){
+    z-index: 2;
+    top: 7%;
+    left: 17%;
+}
+.sideVectors :nth-child(3){
+    z-index: 1;
+    left: 3%;
+    top: 10%;
+}
+.sideMainImage img{
+    max-width: 70%;
+}

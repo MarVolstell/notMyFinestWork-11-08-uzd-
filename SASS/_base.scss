@@ -1,0 +1,20 @@
+*{
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+html, body, .container, main{
+    height: 100%;
+    padding: 20px;
+}
+body {
+    background: linear-gradient(to bottom right, #F9ED32, #D9BD32);
+}
+.container {
+    background-color: #E6F3FF;
+    box-shadow: 0 4px 4px 0 #00000040;
+    overflow: hidden;
+}
+.container, main{
+    padding: 0;
+    border-radius: 25px;
+}

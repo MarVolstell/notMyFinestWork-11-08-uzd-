@@ -1,0 +1,51 @@
+main {
+    background-color: #fff;
+    width: 60%;
+    z-index: 5;
+    padding: 8%;
+    padding-top: 7%;
+}
+.loginInfoInput{
+    padding-bottom: 5%;
+    input {
+        border-radius: 20px;
+        background-color: #B0BAC366;
+        width: 100%;
+        display: block;
+        padding:3%;
+        padding-left: 30px;
+        color: #00000080;
+    }
+    :focus{
+        outline: 2px solid #D9BD32;
+    }
+}
+input, .loginCreateButton button{
+    border: none;
+}
+.loginCreateButton {
+    button {
+        border-radius: 10px;
+        width: 55%;
+        background-color: #F9ED32;
+        padding: 1.5%;
+        transition-duration: 0.2s;
+    }
+    :hover{
+        background-color: #D9BD32;
+    }
+}
+.redirectLinkContainer{
+    padding-bottom: 45px;
+    .githubSignIn, .googleSignIn{
+        @extend .redirectButton;
+    }
+    .googleSignIn{
+        margin-right: 5px;
+    }
+}
+footer{
+    p{
+        font-family: "Roboto", sans-serif;
+    }
+}

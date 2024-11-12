@@ -1,0 +1,15 @@
+.redirectButton{
+    border-radius: 15px;
+    border: solid 1px #7C838A;
+    padding: 3px;
+    .redirectText {
+        a {
+            font-size: 14px;
+            margin: 0;
+            line-height: 50px;
+        }
+        :hover{
+            color: #000;
+        }
+    }
+}

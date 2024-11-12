@@ -1,0 +1,23 @@
+@media only screen and (max-width: 768px){
+    .sideImage {
+        display: none;
+    }
+    main {
+        width: 100%;
+        h1, .loginCreateButton button{
+            font-size: 23px;
+        }
+        .redirectLinkContainer {
+            flex-direction: column;
+            .githubSignIn, .googleSignIn {
+                margin-bottom: 10px;
+            }
+        }
+    }
+}
+/*no idea*/
+@media only screen and (max-height: 895px){
+    .container{
+        overflow-y: scroll;
+        }
+    }
